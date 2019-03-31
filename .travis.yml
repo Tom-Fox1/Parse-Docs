@@ -17,5 +17,6 @@ branches:
 deploy:
   provider: script
   script: bash deploy.sh
+    - ruby -e "require 'bundler/middleman'"
   on:
     branch: master
