@@ -21,7 +21,7 @@ Options:
 
 
 run_build() {
-  bundle install
+  bundle install rake
   bundle exec middleman build --clean
 }
 
