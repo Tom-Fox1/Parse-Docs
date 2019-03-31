@@ -54,6 +54,6 @@ If you've got questions about setup, deploying, special feature implementation i
 Found a bug with upstream Slate? Go ahead and [submit an issue](https://github.com/lord/slate/issues). And, of course, feel free to submit pull requests with bug fixes or changes to the `dev` branch.
 
 [license-svg]: https://img.shields.io/badge/license-BSD-lightgrey.svg
-[license-link]: https://github.com/parse-community/Parse-SDK-JS/blob/master/LICENSE
+[license-link]: #LICENSE
 
 
