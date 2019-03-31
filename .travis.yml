@@ -9,6 +9,11 @@ rvm:
 cache: bundler
 script: bundle exec middleman build
 
+# safelist
+branches:
+  only:
+  - master
+
 deploy:
   provider: script
   script: bash deploy.sh
