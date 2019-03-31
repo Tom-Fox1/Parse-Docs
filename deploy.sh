@@ -21,6 +21,7 @@ Options:
 
 
 run_build() {
+  git add -A
   bundle exec middleman build --clean
 }
 
