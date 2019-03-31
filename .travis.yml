@@ -13,6 +13,9 @@ script: bundle exec middleman build
 branches:
   only:
   - master
+  
+before_install:
+  - bash -c "gem update --system"
 
 deploy:
   provider: script
