@@ -4,22 +4,23 @@ language: ruby
 
 rvm:
   - 2.3.3
-  - 2.4.0
 
 cache: bundler
-script: bundle exec middleman build
-
-# safelist
-branches:
-  only:
-  - master
   
 before_install:
   - bash -c "gem update --system"
+  
+jobs:
+  include:
+    - stage: deploy
+      script: bash deploy.sh
+        - ruby -e "require 'bundler/middleman'"
+      deploy:
+        provider: pages
+        skip_cleanup: true
+        local_dir: build
+        github_token: $GITHUB_TOKEN
+        on:
+          branch: master
 
-deploy:
-  provider: script
-  script: bash deploy.sh
-    - ruby -e "require 'bundler/middleman'"
-  on:
-    branch: master
+
