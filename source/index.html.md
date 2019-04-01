@@ -21,7 +21,7 @@ includes:
   - sessions
   - roles
   - files
-  - geo-points
+  - geopoints
   - local-datastore
   - push-notifications
   - errors
