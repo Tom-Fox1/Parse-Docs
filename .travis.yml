@@ -7,7 +7,7 @@ rvm:
   - 2.4.0
 
 cache: bundler
-script: bash deploy.sh
+script: bundle exec middleman build
 
 # safelist
 branches:
@@ -18,9 +18,8 @@ before_install:
   - bash -c "gem update --system"
 
 deploy:
-  provider: pages
-  skip_cleanup: true
-  local_dir: build
-  target_branch: gh-pages
- on:
+  provider: script
+  script: bash deploy.sh
+    - ruby -e "require 'bundler/middleman'"
+  on:
     branch: master
