@@ -1,5 +1,7 @@
 # Parse Docs [ work in progress ]
 
+[![Website](https://img.shields.io/website/https/tom-fox1.github.io/Parse-Docs.svg?down_color=red&up_message=live)](https://tom-fox1.github.io/Parse-Docs)
+[![Build Status](https://travis-ci.org/Tom-Fox1/Parse-Docs.svg?branch=master)](https://travis-ci.org/Tom-Fox1/Parse-Docs)
 [![Join The Conversation](https://img.shields.io/discourse/https/community.parseplatform.org/topics.svg)](https://community.parseplatform.org/c/parse-server)
 [![Backers on Open Collective](https://opencollective.com/parse-server/backers/badge.svg)][open-collective-link]
 [![Sponsors on Open Collective](https://opencollective.com/parse-server/sponsors/badge.svg)][open-collective-link]
