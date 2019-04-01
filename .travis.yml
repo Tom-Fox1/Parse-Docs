@@ -13,7 +13,8 @@ before_install:
 jobs:
   include:
     - stage: deploy
-      script: deploy.sh
+      script: bash deploy.sh
+        - ruby -e "require 'bundler/middleman'"
       deploy:
         provider: pages
         skip_cleanup: true
