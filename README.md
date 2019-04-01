@@ -1,6 +1,6 @@
 # Parse Docs
 
-> These new docs are far from finished the current ones can be found [here](http://parseplatform.org). Any help in completing these docs is much appreciated - see the [discussion about these new docs]() and the [migration guide](migrationguide.md).
+> These new docs are far from finished the current ones can be found [here](http://parseplatform.org). Any help in completing these docs is much appreciated - see the [discussion about these new docs](https://community.parseplatform.org/t/consolidate-documentation/149) and the [migration guide](migrationGuide.md).
 
 [![Website](https://img.shields.io/website/https/tom-fox1.github.io/Parse-Docs.svg?down_color=red&up_message=live)](https://tom-fox1.github.io/Parse-Docs)
 [![Build Status](https://travis-ci.org/Tom-Fox1/Parse-Docs.svg?branch=master)](https://travis-ci.org/Tom-Fox1/Parse-Docs)
