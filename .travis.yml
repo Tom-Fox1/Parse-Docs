@@ -13,7 +13,7 @@ before_install:
 jobs:
   include:
     - stage: deploy
-      if: type = pull
+      if: type != pull_request
       script: bundle exec middleman build --clean --verbose
       deploy:
         provider: pages
