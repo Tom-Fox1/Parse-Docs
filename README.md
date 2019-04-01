@@ -15,6 +15,8 @@ These are the markdown sources for all of the [Parse SDK guides](https://parse-c
 Getting Started with the Parse Docs
 ------------------------------
 
+## Installation
+
 ### Prerequisites
 
 You're going to need:
@@ -43,7 +45,15 @@ You can now see the docs at http://localhost:4567. Whoa! That was fast!
 
 Now that the Parse Docs are all set up on your machine, you'll probably want to learn more about [editing Slate markdown](https://github.com/lord/slate/wiki/Markdown-Syntax).
 
-Questions? Need Help? Found a bug?
+## Editing the Docs
+Each top level section is held in a separate markdown file in the [`source > includes`](includes) folder. Within a sections markdown file are the contents for both the middle view and code view on the right. Please remember when making changes to the docs that unless noted the copy needs to apply to all of the Parse client SDKs.
+
+### Adding a new section
+If you would like to add a new section first create a file in the [`source > includes`](includes) folder, use existing files as a template. The file name should start with an underscore, be all lowercase, with dashes separating words and the `.md` file format.
+
+Then add the new section in the [`index.html.md`](index.html.md) file under includes as the name of the section file with the underscore removed.
+
+## Questions? Need Help? Found a bug?
 --------------------
 
 Found a bug with upstream Slate? Go ahead and [submit an issue](https://github.com/lord/slate/issues). And, of course, feel free to submit pull requests with bug fixes or changes to the `dev` branch.
