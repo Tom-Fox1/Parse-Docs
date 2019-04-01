@@ -14,7 +14,9 @@ toc_footers:
 
 includes:
   - getting-started
+  - objects
   - queries
+  - users
   - errors
 
 search: true
