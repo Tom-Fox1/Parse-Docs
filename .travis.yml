@@ -7,8 +7,7 @@ rvm:
   - 2.4.0
 
 cache: bundler
-script:
-  - bash deploy.sh
+script: bash deploy.sh
 
 # safelist
 branches:
@@ -21,7 +20,7 @@ before_install:
 deploy:
   provider: pages
   skip_cleanup: true
-  local_dir : build
-  target_branch : gh-pages
+  local_dir: build
+  target_branch: gh-pages
  on:
     branch: master
