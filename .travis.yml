@@ -4,6 +4,11 @@ language: ruby
 
 rvm:
   - 2.3.3
+  
+# safelist
+branches:
+  only:
+  - master
 
 cache: bundler
   
