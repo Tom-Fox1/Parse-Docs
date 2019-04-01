@@ -17,6 +17,9 @@ includes:
   - objects
   - queries
   - users
+  - sessions
+  - roles
+  - files
   - errors
 
 search: true
