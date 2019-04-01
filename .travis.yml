@@ -13,6 +13,7 @@ before_install:
 jobs:
   include:
     - stage: deploy
+      if: type = pull
       script: bundle exec middleman build --clean --verbose
       deploy:
         provider: pages
@@ -21,5 +22,8 @@ jobs:
         github_token: $GITHUB_TOKEN
         on:
           branch: master
+    - stage: test
+      if: type = pull_request
+      script: bundle exec middleman build --clean --verbose
 
 
