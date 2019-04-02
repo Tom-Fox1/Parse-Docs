@@ -10,7 +10,7 @@
 [![License][license-svg]][license-link]
 [![Twitter Follow](https://img.shields.io/twitter/follow/ParsePlatform.svg?label=Follow%20us%20on%20Twitter&style=social)](https://twitter.com/intent/follow?screen_name=ParsePlatform)
 
-These are the markdown sources for all of the [Parse SDK guides](https://parse-community.github.io/#sdks), the Cloud Code guide and the Parse Server guide. The content for the guides is stored in this repo, these docs have been created with [Slate](https://github.com/lord/slate) which then generates a static site that is hosted on GitHub Pages.
+These are the markdown sources for all of the [Parse SDK guides](https://parse-community.github.io/#sdks). The content for the guides is stored in this repo, these docs have been created with [Slate](https://github.com/lord/slate) which then generates a static site that is hosted on GitHub Pages.
 
 ## Installation
 
