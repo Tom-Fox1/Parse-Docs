@@ -17,6 +17,7 @@ Note that only level 1 and 2 headers will appear in the table of contents. Unlik
 
 ### Paragraph Text
 ⚠️ Minor changes needed
+
 For normal text, just type your paragraph on a single line.
 
     This is some paragraph text. Exciting, no?
@@ -26,6 +27,7 @@ Make sure the lines above and below your paragraph are empty. In the existing do
 ### Code Samples
 
 For code samples:
+
 ❗️Significant changes needed
 
 In the existing docs code blocks with multiple toggles are enclosed with html which is no longer needed:
