@@ -16,13 +16,13 @@ Please follow the formatting conversions for specific markdown elements between 
 Note that only level 1 and 2 headers will appear in the table of contents. Unlike in the existing docs which shows level 1, 3 and 3.
 
 ### Paragraph Text
-⚠️ Minor changes needed
+✅ No changes necessary
 
 For normal text, just type your paragraph on a single line.
 
     This is some paragraph text. Exciting, no?
 
-Make sure the lines above and below your paragraph are empty. In the existing docs it is not necessary to leave an empty line before & after a paragraph.
+Make sure the lines above and below your paragraph are empty.
 
 ### Code Samples
 
@@ -30,7 +30,7 @@ For code samples:
 
 ❗️Significant changes needed
 
-In the existing docs code blocks with multiple toggles are enclosed with html which is no longer needed:
+In the existing docs code samples for multiple languages are enclosed with html which is no longer needed:
 
 __Before:__
 
@@ -45,13 +45,21 @@ __Before:__
 	</code></pre>
 	
 	<pre><code class="javascript">
-	var request = require('request');
-	return request({
- @@ -62,7 +62,6 @@ return request({
-	  }
-	})
+  var request = require('request');
+  return request({
+    method: 'PUT',
+    url: Parse.serverURL + '/config',
+    headers: {
+      'X-Parse-Application-Id': Parse.applicationId,
+      'X-Parse-Master-Key': Parse.masterKey
+    },
+    json: true,
+    body: {
+      params: { winningNumber: 43 }
+    }
+  })
 	</code></pre>
-	</div>
+</div>
 ```
 
 __After:__
@@ -66,11 +74,19 @@ __After:__
 	```
 
 	```javascript
-	var request = require('request');
-	return request({
- @@ -62,7 +62,6 @@ return request({
-	  }
-	})
+  var request = require('request');
+  return request({
+    method: 'PUT',
+    url: Parse.serverURL + '/config',
+    headers: {
+      'X-Parse-Application-Id': Parse.applicationId,
+      'X-Parse-Master-Key': Parse.masterKey
+    },
+    json: true,
+    body: {
+      params: { winningNumber: 43 }
+    }
+  })
 	```
 ```
 
