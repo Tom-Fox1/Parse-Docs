@@ -25,9 +25,6 @@ For normal text, just type your paragraph on a single line.
 Make sure the lines above and below your paragraph are empty.
 
 ### Code Samples
-
-For code samples:
-
 ❗️Significant changes needed
 
 In the existing docs code samples for multiple languages are enclosed with html which is no longer needed:
@@ -148,12 +145,16 @@ Note that the pipes do not need to line up with each other on each line.
 If you don't like that syntax, feel free to use normal html `<table>`s directly in your markdown.
 
 ### Formatted Text
+✅ No changes necessary
 
     This text is **bold**, this is *italic*, this is an `inline code block`.
 
 You can use those formatting rules in tables, paragraphs, lists, wherever, although they'll appear verbatim in code blocks.
 
 ### Lists
+❗️Significant changes needed
+
+Bullet lists in the existing docs use a dash (`-`), these docs use an asterisk (`*`).
 
     1. This
     2. Is
@@ -168,6 +169,7 @@ You can use those formatting rules in tables, paragraphs, lists, wherever, altho
     * List
 
 ### Links
+✅ No changes necessary
 
     This is an [internal link](#error-code-definitions), this is an [external link](http://google.com).
 
